@@ -1,0 +1,27 @@
+.about {
+  padding: 65px 0;
+  color: $grey;
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__info {
+  max-width: 814px;
+  align-self: center;
+
+  &-btn {
+    margin-top: 64px;
+  }
+}
+
+.about__img {
+  box-shadow: 14px 15px 46px 1px rgba(0, 0, 0, 0.18);
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
+}
